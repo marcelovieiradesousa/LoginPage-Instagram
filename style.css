@@ -1,0 +1,194 @@
+*{
+  background-color: rgb(245, 245, 245);
+  margin: 0%;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+article{
+  padding: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  height: 670px;
+}
+
+article div{
+  
+  width: 350px;
+  height: 396px;
+  align-items: center;
+  justify-content: center;
+}
+
+.imagens{
+
+}
+
+
+.form{
+  background-color: #fff;
+  border: .5px solid rgb(216, 216, 216);
+  display: flex;
+  flex-direction: column;
+}
+.form input{
+  margin-top: 6px;
+  width: 258px;
+  height: 36px;
+  
+}
+.form .outro{
+  padding: 16px 0px;
+  margin: 0px;
+  height: 0px;
+  width: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  
+}
+
+
+.form .outro span{
+  color: rgb(216, 216, 216);
+  height: 0px;
+  font-size: 6px;
+  margin: 0px 16px 8px 16px;
+}
+.form .outro p{
+  color: rgb(146, 146, 146);
+  background-color: transparent;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+input:focus ~ .floating-label,
+input:not(:focus):valid ~ .floating-label{
+  top: 8px;
+  bottom: 10px;
+  left: 20px;
+  font-size: 11px;
+  opacity: 1;
+}
+
+.inputText {
+  font-size: 14px;
+  width: 200px;
+  height: 35px;
+  border: 1px solid #ccc;
+  background-color: rgb(252, 252, 252);
+  border-radius: 5%;
+  outline: none;
+}
+
+.floating-label {
+  position: absolute;
+  pointer-events: none;
+  left: 20px;
+  top: 18px;
+  transition: 0.2s ease all;
+}
+#mostrar{
+  position: relative;
+  bottom: 72px;
+  left: 90px;
+  font-size: 14px;
+  font-weight: bolder;
+  color: #262626;
+  border: 0px solid #000;
+  background-color: transparent;
+}
+#entry-facebook{
+  margin-top: 16px;
+  display:flex; 
+  justify-content: center; 
+  background-color: #FFFF;
+  border: 0px solid #000;
+  color: #385185;
+  font-weight: bold;
+}
+#forgot{
+  background-color: #FFFF;
+  text-decoration: none;
+  margin-top: 32px;
+  color: #00376B; 
+  font-size: 12px;
+}
+#entrar{
+  margin-top: 16px;
+  width: 259px;
+  height: 30px;
+  background-color: #0095F6;
+  padding:  5px 9px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  border: 0px solid #000;
+  border-radius: 5px; 
+}
+footer{
+  padding: 0 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+footer .foot1{
+  position: relative;
+  align-items: center;
+  justify-content: center;  
+}
+footer .foot2{
+  position: relative;
+  top: 16px
+}
+select{
+  outline: none;
+  border: 0 solid;
+  color: #8e8e8e;
+  justify-content: center;
+  align-items: center;
+  }
+footer span{
+  margin: 8px;
+  font-size: 13px ;
+  color: #8e8e8e;
+}
+
+.imagens img {
+  position:absolute;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+
+
+@keyframes cf3FadeInOut {
+  0% {
+  opacity:1;
+}
+45% {
+opacity:1;
+}
+55% {
+opacity:0;
+}
+100% {
+opacity:0;
+}
+}
+
+#cf4 img {
+animation-name: cf3FadeInOut;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 10s;
+animation-direction: alternate;
+}
